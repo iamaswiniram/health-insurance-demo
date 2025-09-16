@@ -5,7 +5,7 @@ import joblib
 
 st.set_page_config(page_title="Medical Insurance Cost Predictor", layout="centered")
 
-st.title("🏥 Medical Insurance Cost Predictor")
+st.title("## 🏥 Medical Insurance Cost Predictor")
 st.markdown("""
     Enter the patient's details below to get an estimated medical insurance charge.
 """)
@@ -67,6 +67,7 @@ if st.button("Predict Insurance Charges"):
 
 st.markdown("---")
 st.markdown("Developed by Ramasamy_A_Batch_11/E&ICT Academy IIT Guwathi for a Mini Project-Supervised ML")
+
 
 
 
