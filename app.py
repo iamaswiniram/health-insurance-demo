@@ -66,6 +66,7 @@ if st.button("Predict Insurance Charges"):
     st.info("Disclaimer: This is an estimated cost based on the provided data and model. Actual costs may vary.")
 
 st.markdown("---")
-st.markdown("Developed by student Ramasamy_A_Batch11/E&ICT Academy IIT Guwathi for a Mini Project-Supervised ML")
+st.markdown("Developed by Ramasamy_A_Batch_11/E&ICT Academy IIT Guwathi for a Mini Project-Supervised ML")
+
 
 
