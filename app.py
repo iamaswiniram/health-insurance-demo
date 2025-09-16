@@ -61,12 +61,13 @@ if st.button("Predict Insurance Charges"):
     predicted_charges = np.expm1(predicted_log_charges)[0]
 
     st.subheader("Predicted Medical Insurance Charges:")
-    st.success(f"**${predicted_charges:,.2f}**")
+    st.success(f"**₹{predicted_charges:,.2f}**")
     st.markdown("---")
     st.info("Disclaimer: This is an estimated cost based on the provided data and model. Actual costs may vary.")
 
 st.markdown("---")
 st.markdown("Developed by Ramasamy_A_Batch_11 for a Mini Project-Supervised ML")
+
 
 
 
